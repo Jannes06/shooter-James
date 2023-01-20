@@ -1,6 +1,10 @@
+
+
+import java.awt.*;
 class Main{
 
-    public static void main(String[] args){
-        Game Game = new Game();
+    public static void main(String[] args) throws AWTException{
+     Ballwurfspiel Shooter = new Ballwurfspiel();
+     Shooter.Ballwurfspiel();
     }
 }
